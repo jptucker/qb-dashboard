@@ -1,23 +1,41 @@
 <div class="row">
 
-  <div class="col-md-12 home_background">
-    <h1>Bold Visual and Call to Action</h1>
-  </div>
-
-  <div class="col-md-12">
-    <h1>Brief Description</h1>
+  <div class="col-md-12 homepage wrapper">
+    <%= image_tag "/assets/financial-landscape-2.jpg", width: '100%', :style => "opacity:0.5; filter:alpha(opacity=50);" %>
+    <div class="description_top">
+      <p class='description_content'>
+        <h1>Welcome to Quickbooks Dashboard</h1>
+        <h3>A dynamic, visual look at your company's financials</h3>
+        <br />
+        <%= link_to "/auth/intuit" do %>
+        <%= image_tag "/assets/sign_in_blue_btn_lg_default.png" %>
+        <% end %>
+      </p>
+    </div>
   </div>
 
   <div class="col-md-4">
-    <h2>Chart</h2>
+    <%= image_tag "/assets/chart-sample-1.png" %>
   </div>
 
   <div class="col-md-4">
-    <h2>Chart</h2>
+    <%= image_tag "/assets/chart-sample-2.png" %>
   </div>
 
   <div class="col-md-4">
-    <h2>Chart</h2>
+    <%= image_tag "/assets/chart-sample-3.png" %>
+  </div>
+
+  <div class="col-md-4">
+    <h3><center>See the most critical information at a glance</center></h3>
+  </div>
+
+  <div class="col-md-4">
+    <h3><center>Historicals alongside forecasts give the complete picture</center></h3>
+  </div>
+
+  <div class="col-md-4">
+    <h3><center>Drill into the details, but only when you need them</center></h3>
   </div>
 
 </div>
